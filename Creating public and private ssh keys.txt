@@ -1,0 +1,229 @@
+Administrator@EC2AMAZ-FPD7RPQ MINGW64 ~
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa):
+Created directory '/c/Users/Administrator/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Administrator/.ssh/id_rsa
+Your public key has been saved in /c/Users/Administrator/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:QrxMjrSZTCLSef7jiTzIIZ6KhEdJZIEDlbYfwdAFMes Administrator@EC2AMAZ-FPD7RPQ
+The key's randomart image is:
++---[RSA 3072]----+
+|oo**++.          |
+|o+o.++           |
+|oo=.=.+          |
+|.o.X.X .         |
+|  o.E.= S        |
+|o.. .. .         |
+|o+oo  o          |
+|o+o..o o         |
+|+   o.o          |
++----[SHA256]-----+
+
+Administrator@EC2AMAZ-FPD7RPQ MINGW64 ~
+$ pwd
+/c/Users/Administrator
+
+Administrator@EC2AMAZ-FPD7RPQ MINGW64 ~
+$ cat .ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCbw277/VEDotcIhNA41zH+6Tq2dSft+agIvNbtQifZZPlvcsIL4i+H0f6IYLbRBJ4/r/gZkOjlHD6h7wGxg8uyF3oQGh4XmGHmO8g9gVCfrWc8EBuOMDElzLfQCRDAjh4mCnLmaB7yCyrmZGyZKcvKIHe576XgkLzpcXjW6IBCN+bt8FmKyX9zM8ctCbrRNb43fGlVSVn/vqJncPK8fNhPDYnhQFhOqikdzhg3e52ako7YQ3v7tCSyTrLWIcaXjUoB39+1o66SZ9xIy5UGs/SQUrdkVVg8glGi3wa1hChXboqAW66iBLYfqkmqAi/FDdev6wt65l/LA3PeDKv4Mld2CCxmtyHI9VqZONUR7EX3NknzahNf8r/UM5/y+EZB0ah3baNL6al15qCOp+/2KU+4UXov2KwY4zhiW1sJZ0vGw30c9BZMbVOhawO+lApQbo1Sc045Lf8rbp3V7YIT4dEFJxp933ppQbjavVKRUk2c9eDUFfSBlW7V0vdyIOyoQVE= Administrator@EC2AMAZ-FPD7RPQ
+
+Administrator@EC2AMAZ-FPD7RPQ MINGW64 ~
+$ cat .ssh/id_rsa
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+NhAAAAAwEAAQAAAYEAm8Nu+/1RA6LXCITQONcx/uk6tnUn7fmoCLzW7UIn2WT5b3LCC+Iv
+h9H+iGC20QSeP6/4GZDo5Rw+oe8BsYPLshd6EBoeF5hh5jvIPYFQn61nPBAbjjAxJcy30A
+kQwI4eJgpy5mge8gsq5mRsmSnLyiB3ue+l4JC86XF41uiAQjfm7fBZisl/czPHLQm60TW+
+N3xpVUlZ/76iZ3DyvHzYTw2J4UBYTqopHc4YN3udmpKO2EN7+7Qksk6y1iHGl41KAd/fta
+OukmfcSMuVBrP0kFK3ZFVYPIJRot8GtYQoV26KgFuuogS2H6pJqgIvxQ3Xr+sLeuZfywNz
+3gyr+DJXdggsZrchyPVamTjVEexF9zZJ82oTX/K/1DOf8vhGQdGod22jS+mpdeagjqfv9i
+lPuFF6L9isGOM4YltbCWdLxsN9HPQWTG1ToWsDvpQKUG6NUnNOOS3/K26d1e2CE+HRBSca
+fd96aUG42r1SkVJNnPXg1BX0gZVu1dL3ciDsqEFRAAAFmJlW2JSZVtiUAAAAB3NzaC1yc2
+EAAAGBAJvDbvv9UQOi1wiE0DjXMf7pOrZ1J+35qAi81u1CJ9lk+W9ywgviL4fR/ohgttEE
+nj+v+BmQ6OUcPqHvAbGDy7IXehAaHheYYeY7yD2BUJ+tZzwQG44wMSXMt9AJEMCOHiYKcu
+ZoHvILKuZkbJkpy8ogd7nvpeCQvOlxeNbogEI35u3wWYrJf3Mzxy0JutE1vjd8aVVJWf++
+omdw8rx82E8NieFAWE6qKR3OGDd7nZqSjthDe/u0JLJOstYhxpeNSgHf37WjrpJn3EjLlQ
+az9JBSt2RVWDyCUaLfBrWEKFduioBbrqIEth+qSaoCL8UN16/rC3rmX8sDc94Mq/gyV3YI
+LGa3Icj1Wpk41RHsRfc2SfNqE1/yv9Qzn/L4RkHRqHdto0vpqXXmoI6n7/YpT7hRei/YrB
+jjOGJbWwlnS8bDfRz0FkxtU6FrA76UClBujVJzTjkt/ytundXtghPh0QUnGn3femlBuNq9
+UpFSTZz14NQV9IGVbtXS93Ig7KhBUQAAAAMBAAEAAAGAQ78EjmTmz4YLsJDTX2V5QT1/Y8
+wgychD5Uj80cRsQIlCU869xx1hPtl+syIdYVt42IpYhgYYxU07kIK7YdHIznSXillRrUGB
+kvl9ZgLQZiKtO9plobokJiSb7ceDmbw2MKVqw/uVOgDRb9NNyG/9SrREXoJ0yu8ouv+3Zw
+FIh4R41BQtXce1vw1OG7CXqFaPnOJnjciRdEIdsI/Xg1NpYTiqN2YdAlnP+D6jGb6SFaCY
+sEbprdfz/flsnuWh0liIogC2FV07KQkS57UiuRSnrBViqUGTVwfMJkBeoIGcecLc46MQSF
+XTR6uo5gFX9KY4+DtMdkRL9ABAlumWIM2k5SIjuQLspnF+JWlVmZ95oarPKrYP4QyuWD5v
+qbolJShlSIb7LNofc/lmRLjrJMDNkVYhRVBkuLtxVP32J9Gn+U3LZ4CI2KdvbSnJAkT87+
+nwF5H3ntYS4E28LDtLEZrohzOscEWcTSLNPFnZVXNPJOedzkodc0O9HY5oJII/2CHhAAAA
+wQCL1i6MkOmtQAglYCkZyAIYnqQhRvB0T/GS8jpuKDhr0InCxp+qDlht6mSAYUMIYpaKlE
+1g2p8uKc9EHqbPGrXLb4eHkjkcof5Z+GQaRBqEwJfPZZcLkatvD+BsFE25g7C8jEBFr/5/
+/YZZFpoXh3YQWEyg8jb8PqCLWbXFER/7Wf3CZuCnyRBI+GWPVP/laWLk5XOriVl+ErQYwu
+U72VHLFP3T5uPpi9vB3Lzdfz4KwqkGMc+yP0Yt16A0CoquQ48AAADBAMogPRPkqxu+m5qi
+uX6iWSVhZ6PBTKs07nQrCAuWZBcNAe8zsVsOXbWVws6piuJVW0cALdg8DQGZEPVtdgUyWq
+tMZcOBZTZBVOUxxjd2x8UddL0imybmNjt9EA+ruXNV06rj747E+t7SQFRLUPNt8DVek6HU
+yfQ/p9fsnSxtrOheZKYvJk6u7GL7iQls2MsZYoTm8sBiJR500x9Q1KuPRNKsOl8eWO9kTD
+sPBCFS8XuaYlUk3zNFauWCrsIBN7l8ywAAAMEAxUe3s3aVnwCofvQ96NsRB2KzkEHhPiTo
+VlLPc2SPoJfvinmA4ATTlkb1xxCGguPCw7Jr9JEn9jZBEzWL7oLrBSfm3qRDIpAOaCi6eb
+QwOokN7HFVq9LZBJaW/+EAWNDzeG+D/w25K0wuz/W719/HrJafUiZH8Z/PVVeT7Efd2q3D
+2XSI4FrRrwNKUQNGmb+BJw3oyvDpJ1bL/SxPmY69CTNaOp0X0tKgJcKpHjDlEtrb60qlY0
+guLLUcCxBdHHLTAAAAHUFkbWluaXN0cmF0b3JARUMyQU1BWi1GUEQ3UlBRAQIDBAU=
+-----END OPENSSH PRIVATE KEY-----
+
+
+
+
+
+
+
+
+
+
+
+Administrator@EC2AMAZ-FPD7RPQ MINGW64 ~
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa): ec2_jenkins_agent
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in ec2_jenkins_agent
+Your public key has been saved in ec2_jenkins_agent.pub
+The key fingerprint is:
+SHA256:YlhEySkIKjyQbWoa6SNe4gyC/AjoTOiK48Pi2fHmasE Administrator@EC2AMAZ-FPD7RPQ
+The key's randomart image is:
++---[RSA 3072]----+
+|o+ . ooo         |
+|= + ..+          |
+|o*   ..          |
+|=..  o           |
+|O.. . o S        |
+|X* E . .         |
+|# *..            |
+|+@ooo.           |
+|B=oo+o           |
++----[SHA256]-----+
+
+Administrator@EC2AMAZ-FPD7RPQ MINGW64 ~
+$ cat ec2_jenkins_agent
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+-----END OPENSSH PRIVATE KEY-----
+
+Administrator@EC2AMAZ-FPD7RPQ MINGW64 ~
+$ cat ec2_jenkins_agent.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDO+4IfCKiGubw30WvPG8184xY37TNgwDxSuKWmo/s5Ez2ekRDg/HJm2JmHUbcuu2FeKegPefCvr2xGV8CVFK2dojOsq+giVoXdd0aUSOSCeuG+8mhs0FDAuKW/EDBQgdL9TfBA0EfmSIp4nav5D1j0KzVGOv0Ov86OgvACl9l8TO3Q1oTnOFR9F0btLqkEvgStBYsLpiftK9PMADDLFzZNhxAq5sqpU/8IKwYPy97A30RstvL9tKsA5LQiRIXnQBIp+TvMr/B/ZB3iefZ4LePDZD3WUV7nrWdIRP206TmO0IYD+Fs+AQtsQ9jILRhjKfqwxKdpVr69hlLQTtchgjkjILa0ChLI1GlYYhFY0R4G7xJEwjCRPtRoi5ZWqFrs676hWtpzH4i+YC45vh8/AFul+8747N80pXweYBxex08jNDXMX2+SFyHMBIdnCd3NWsVk6d/qzBF7uElaISeeCFl9FEGidZm/nBwxl/KL09Ia0kxaThKD9oVDhUjOm5US68M= Administrator@EC2AMAZ-FPD7RPQ
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS C:\Users\Administrator\.ssh> ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\Administrator/.ssh/id_rsa): ec2-user-agent-linux
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in ec2-user-agent-linux.
+Your public key has been saved in ec2-user-agent-linux.pub.
+The key fingerprint is:
+SHA256:TLBnMw5ZswbjFVinxI6BeJ6E6BlsAxbkmdhWuj8hrVA administrator@EC2AMAZ-FPD7RPQ
+The key's randomart image is:
++---[RSA 2048]----+
+|==.o..++B..      |
+|=*=o+.oX.=       |
+|++E+ .=+X        |
+| = oo .O.o       |
+|. o o   S        |
+| . + .           |
+|  . o            |
+|     .           |
+|                 |
++----[SHA256]-----+
+PS C:\Users\Administrator\.ssh> ls
+
+
+    Directory: C:\Users\Administrator\.ssh
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        5/15/2022   1:02 PM           1679 ec2-user-agent-linux
+-a----        5/15/2022   1:02 PM            412 ec2-user-agent-linux.pub
+-a----        5/15/2022  12:42 PM           1542 known_hosts
+-a----        5/14/2022   9:58 PM             92 known_hosts.old
+
+
+PS C:\Users\Administrator\.ssh> cat .\ec2-user-agent-linux
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA8aO9xC6/KZXy5hYz0KierJAnExEKT/Q+stuDBeCUAeAm69ki
+xt/sFOhm1u3358tqSRcC3a3ZRnXmUn8jxrKEv013YoYbrZmxhyMjlOTsX8f4Xyb0
+/QN5KMQ8pm4DoLnIAMLt/u1Z6nsQmFz4BXTsNGfxoPbKQm0M+2STV3UNKqG1+AEV
+dW29gyKetanSHsrRpWDI7IimKjBRnpipMTHGFh5BOfU3s9jkPbgwDa/kg2lCdr4S
+LOrYfw5gCvYH9TBXcqhzzZk5OgK8C/ChzkI28YadGzI7pUCro7drXFqKwNGNb+VJ
+ZTXt3+BzNb7EkhRyZbFX0artZZtolz3OOmtNtwIDAQABAoIBAG0pwuYpFDVOR6CI
+cToXoy9kJDLp5NXACr80idmS3mqGgC7WNm7P5FCBuUvpz7AI5mhEnAfXrSu2wamN
+RHVUWsIt1fxNh52CrH/XcRCn5t1ScrNR3yWadxbiqF+rnbnzlBY7+dbMFW3n0NR0
+U5vreXYnazKDq1Yc+9tqUWIWQC98ZARPa9n+ai219XXR8l/Mu8rAysvtaNWl3t6w
+4heT1L9TbsfOxp7568TzZ9YvqSGPzX/Sucv6T6wTdJRkP6bg51owqNcaElLZlW/B
+mr9tI5KAterJr7NGd9e3Ka/3oybMzHmboOwgvbn6UwON8n4WAQ7QySqGU8nsPkpu
+MqcNzcECgYEA+uXPxwHSjAEfaxwpA6P1k9cHHx6Ww0Pt4Km9eF0RTZbLEjj3e8gF
+8/YnbFQUl9GSJIeuqZAveNLIFcynwGl/gDQCfE8G6LV+AHwS7ZrGTga1v6r17Vyj
+OL65WxHy6P0tWPJ0+uxb/U7hu5v22w2yi7f9keF3kQ+5jyjhfci4ExcCgYEA9o27
+QvlVEWSumgmwdwe+6SkFqloEoCWtIJBrXbfCDAY8gK14ArjC1z+toyyRTSaqRm3a
+H3brXYrjkOnUdzsHzDX5xPc6HZBbQtXMpgDMcb6EUlYQ05JGJJ1+XfqwX+8Qqmir
+LTpdf8Gu/t335oIAFLBMLas9XLJL/kKCa0onvmECgYEAmMvsRd4uQ2VLpQd5UuY/
+YNHLXIBcgH6WGARHh03mg8IZ2fcngRLHzVNTnv11rR/MSML48/sDbimwANaqMtwM
+8h66hMn8AyzEl7b4MAvaSRp9BUUwkGWiYaSFbZj4vjuxqkG+TDI1s4aeoorRQ4aL
+/dsHahhNoOJat3zGFrxunfECgYB9OEykXkezNsRq3YLvYVK3zqre8ysoPxpn0JGH
+Hp4CR2SRIgkysK3cbq38ktUVLw8KCB7hHh+5+aFMZ0YObD+wmrVJMRsmCrwe/MEc
+iolLN6yyuJ2BJuhTDl4w0vKjNqLrOY++v8be7Pq43Plb7CioWUXHaBIZM0DfWN4u
+KZJ34QKBgQDuTz0Ft1pP0eIvVGPYu3IXqLByMQZV+yA6Buz1mmSOJVgi1N2CBIp0
+oMMbwzb5+d3bXv4hNoS0EdH6+meuFkEZFAd17vS7XCNiW6QMSmmR97V/mz25fg8N
+FkKjrqqlnRiBNRqzykLfQxxojj0jBd42eug/8fGypJ7qr5UIJpnAvQ==
+-----END RSA PRIVATE KEY-----
+PS C:\Users\Administrator\.ssh> cat .\ec2-user-agent-linux.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDxo73ELr8plfLmFjPQqJ6skCcTEQpP9D6y24MF4JQB4Cbr2SLG3+wU6GbW7ffny2pJFwLdrdlGdeZSfyPGsoS/TXdihhutmbGHIyOU5Oxfx/hfJvT9A3koxDymbgOgucgAwu3+7VnqexCYXPgFdOw0Z/Gg9spCbQz7ZJNXdQ0qobX4ARV1bb2DIp61qdIeytGlYMjsiKYqMFGemKkxMcYWHkE59Tez2OQ9uDANr+SDaUJ2vhIs6th/DmAK9gf1MFdyqHPNmTk6ArwL8KHOQjbxhp0bMjulQKujt2tcWorA0Y1v5UllNe3f4HM1vsSSFHJlsVfRqu1lm2iXPc46a023 administrator@EC2AMAZ-FPD7RPQ
+PS C:\Users\Administrator\.ssh>
